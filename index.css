@@ -40,6 +40,10 @@ header .menu #menu-tab{
 	float:right;
 }
 header .menu a{
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
 	display: block;
 	float: left;
 	margin-left: 33px;
@@ -84,8 +88,11 @@ section#info{
 section#recipe{
 	padding-top: 100px;
 }
-section#contact{
+footer#contact{
 	padding-top: 100px;
+}
+footer#contact div span{
+	padding-left: 30px;
 }
 
 .product {
