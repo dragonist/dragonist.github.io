@@ -2,29 +2,73 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="shortcut icon" href="img/favicon.ico">
-	<title>Recipe of Witch</title>
 	<link rel="stylesheet" href="lib/css/bootstrap.css">
+	<link rel="stylesheet" href="index.css">
+	<title>Recipe of Witch</title>
 </head>
 <body>
-	<header>
-		<div class="left"><a href="/">Recipe of Witch</a></div>
-		<div class="right">
-			<a href="/profile">Profile</a>
-			<a href="">Recipe</a>
-			<a href="">Contact</a>
+	<header class="row">
+		<div class="col-xs-6 col-sm-4 col-xs-offset-1">
+			<a class="logo" href="/">Recipe of Witch</a>
+		</div>
+
+		<div class="col-xs-2 col-xs-offset-2 visible-xs">
+			<a href="#menu" class="menu-toggle">
+				<img src="" alt="메뉴">
+			</a>
+		</div>
+
+		<div class="col-xs-8 col-sm-6 menu">
+			<div id="menu-tab">
+				<a href="/profile">Profile</a>
+				<a href="">Recipe</a>
+				<a href="">Contact</a>				
+			</div>
 		</div>
 	</header>
-	<section id="banner">
+
+
+
+	<section id="banner" >
 		<img src="img/main.jpg" alt="Background">
 		<h1>Recipe of Witch</h1>
 	</section>
-	<section id="recipe">
+
+	<section id="recipe" class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-1">
+				<h3>Recipe</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div id="products" class="col-xs-12 col-xs-offset-0 col-sm-11 col-sm-offset-1">
+				<a class="product" href="/a1">
+					<img src="/img/icon1.jpg" alt="image">
+					<span>Hello</span>
+				</a>
+				<a class="product" href="/a1">
+					<img src="/img/icon2.jpg" alt="image">
+					<span>Hello</span>
+				</a>
+			</div>
+		</div>
+		
 		
 	</section>
-	<footer>
-		<a href="">Recipe of Witch</a>
-		copyright © erin314@naver.com
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-xs-offset-0 col-sm-11 col-sm-offset-1">
+				<a href="">Recipe of Witch</a>
+				<span>copyright © erin314@naver.com</span>
+				<span>call.010-3773-2883</span>
+			</div>
+		</div>
 	</footer>
 </body>
+<script type="text/javascript" src="lib/js/jquery.js"></script>
+<script type="text/javascript" src="lib/js/bootstrap.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
 </html>
