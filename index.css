@@ -5,6 +5,7 @@ header {
 	z-index: 1000;
 	position: fixed;
 	top: 0;
+	left:15px;
 	width:100%;
 	background: none;
 	padding: 75px 0;
@@ -12,6 +13,19 @@ header {
 	-o-transition-duration: 0.4s;
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
+}
+header.small{
+	padding:10px 0;
+	background: #ddd;
+}
+header.small .logo{
+	color:#000;
+}
+header.small .menu a{
+	color:#000;
+}
+header.hideme{
+	top: -115px;
 }
 header .logo{
 	color : #fff;
@@ -36,6 +50,14 @@ header .menu a:hover{
 	text-decoration: none;
 	border-bottom: solid 1px #fff;
 }
+header.small .menu a:hover{
+	text-decoration: none;
+	border-bottom: solid 1px #000;
+}
+header .menu a.active{
+	text-decoration: none;
+	border-bottom: solid 1px #000;
+}
 .container-fluid{
 	max-width: 1200px;
 	margin-bottom: 30px;
@@ -49,12 +71,23 @@ section#banner img{
 	/*width: 100%;*/
 	height: 100%;
 }
+section#banner h1{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	right: 30%;
+	color:#fff;
+}
 section#info{
-	margin-top: 50px;
+	padding-top: 100px;
 }
-section#recipe {
+section#recipe{
+	padding-top: 100px;
+}
+section#contact{
+	padding-top: 100px;
+}
 
-}
 .product {
 	display: inline-block;
 	vertical-align: middle;
@@ -97,7 +130,7 @@ section#recipe {
 		width:100%;
 		height: auto;
 		position: relative;
-		bottom: 34%;
+		bottom: 5%;
 	}
 }
 @media(max-width: 1120px){
@@ -112,7 +145,7 @@ section#recipe {
 }
 @media(max-width: 875px){
 	.product img{
-		height: 240px;
+		height: 230px;
 	}
 }
 @media(max-width: 768px){
