@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-		sectionsColor: ['#31355c', '#1BBC9B', '#7E8F7C', '#C63D0F', '#1BBC9B', '#7E8F7C', '#C63D0F'],
+		// sectionsColor: ['#31355c', '#1BBC9B', '#7E8F7C', '#C63D0F', '#1BBC9B', '#7E8F7C', '#C63D0F'],
 		// sectionsColor: ['#7E8F7C', '#1BBC9B', '#7E8F7C', '#C63D0F', '#1BBC9B', '#7E8F7C', '#C63D0F'],
 		verticalCentered : false,
 		resize : true,
@@ -34,4 +34,4 @@ $(document).ready(function() {
 
 // })
 
-// 7662a7
+// 9b85cf
