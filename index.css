@@ -157,7 +157,8 @@ footer#contact div span{
 }
 @media(max-width: 768px){
 	.product img{
-		height: 340px;
+		width: 100%;
+		height: auto;
 	}
 
 }
