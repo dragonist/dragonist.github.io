@@ -558,6 +558,8 @@
 
 			.image.avatar img {
 				border-radius: 100%;
+				/*border: solid 5px rgba(256,256,256,0.5);*/
+				border: solid 3px white;
 				width: 100%;
 			}
 
